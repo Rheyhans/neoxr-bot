@@ -1,11 +1,15 @@
 // Owner number
-global.owner = '6285221100126'
+global.owner = '6285895001126'
 // Owner name
-global.owner_name = 'Wildan Izzudin'
+global.owner_name = 'Rhey Store'
 // Database name (Default: database)
 global.database = 'bot'
 // Maximum upload file size limit (Default : 100 MB)
 global.max_upload = 100
+//panel Url
+global.panelurl = 'https://panel.reysstore.my.id'
+//panel Api 
+global.panelapi = 'ptla_VAF17fHEcFMYCPvTnTsdanMYiV5WMud1MMU1EGVp4bh'
 // Delay for spamming protection (Default : 3 seconds)
 global.cooldown = 3
 // User Limitation (Default : 25)
@@ -28,9 +32,9 @@ global.timezone = 'Asia/Jakarta'
 // Bot version
 global.version = '2.2.2',
 // Bot name
-global.botname = `© neoxr-bot v${global.version} (Public Bot)`
+global.botname = `© RheyBot v${global.version}`
 // Footer text
-global.footer = 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ɴᴇᴏxʀ ッ'
+global.footer = 'ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ッ'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'Processed . . .'),
