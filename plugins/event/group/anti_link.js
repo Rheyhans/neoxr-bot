@@ -14,7 +14,7 @@ exports.run = {
                   id: m.key.id,
                   participant: m.sender
                }
-            }).then(() => client.groupParticipantsUpdate(m.chat, [m.sender], 'remove'))
+            }).then(() => client.reply(m.chat, 'Hahaha Send Link',m))
          }
       } catch (e) {
          return client.reply(m.chat, Func.jsonFormat(e), m)
