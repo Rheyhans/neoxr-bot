@@ -110,7 +110,7 @@ module.exports = (m) => {
       if (!('msg' in setting)) setting.msg = 'Hi +tag 🪸\nI am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : +db\n◦ *Library* : Baileys v+version\nIf you find an error or want to upgrade premium plan contact the owner.'
       if (!isNumber(setting.menuStyle)) setting.menuStyle = 4
       if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/9ce1cc2c37876f95d91c5.jpg'
-      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/LbqrUtYhnMIF4E8MdOKYPo'
+      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/FOi6QsjcGLxLoXOjkFn7yM'
    } else {
       global.db.setting = {
          autodownload: true,
