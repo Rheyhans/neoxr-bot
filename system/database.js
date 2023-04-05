@@ -109,7 +109,7 @@ module.exports = (m) => {
       if (!isNumber(setting.lastReset)) setting.lastReset = new Date * 1
       if (!('msg' in setting)) setting.msg = 'Hi +tag 🪸\nI am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : +db\n◦ *Library* : Baileys v+version\nIf you find an error or want to upgrade premium plan contact the owner.'
       if (!isNumber(setting.menuStyle)) setting.menuStyle = 4
-      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/7809ca7cd90860a07aeb6.png'
+      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/9ce1cc2c37876f95d91c5.jpg'
       if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/LbqrUtYhnMIF4E8MdOKYPo'
    } else {
       global.db.setting = {
@@ -120,7 +120,7 @@ module.exports = (m) => {
          pluginDisable: [],
          groupmode: false,
          sk_pack: 'Sticker',
-         sk_author: '@ RheyBot',
+         sk_author: '@Bot Store',
          self: false,
          mimic: [],
          multiprefix: true,
@@ -132,7 +132,7 @@ module.exports = (m) => {
          lastReset: new Date * 1,
          msg: 'Hi +tag 🪸\nI am an automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : +db\n◦ *Library* : Baileys v+version\nIf you find an error or want to upgrade premium plan contact the owner.',
          menuStyle: 4,
-         cover: 'https://telegra.ph/file/7809ca7cd90860a07aeb6.png',
+         cover: 'https://telegra.ph/file/9ce1cc2c37876f95d91c5.jpg',
          link: 'https://chat.whatsapp.com/LbqrUtYhnMIF4E8MdOKYPo'
       }
    }
